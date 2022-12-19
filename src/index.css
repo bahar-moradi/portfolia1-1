@@ -85,7 +85,9 @@ img {
 .text-light {
     color: var(--color-light);
 }
-
+section{
+    height: 100vh;
+}
 
 /*-------media queries------*/
 
