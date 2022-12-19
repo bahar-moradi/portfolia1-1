@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 :root {
-    --color-bg:#607B8B;
+    --color-bg:#182c38;
     --color-bg-variant:#5D92B0;
     --color-primary:#ACD9F2;
     --color-primary-variant:#A3C4D7	;
@@ -51,6 +51,7 @@ section > h5{
 a {
     color: var(--color-primary);
     transition:var(--tarnsition);
+    font-weight: bolder;
 }
 a:hover{
     color: var(--color-white);
@@ -78,6 +79,7 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+
 }
 
 .text-light {

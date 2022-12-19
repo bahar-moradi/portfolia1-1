@@ -5,6 +5,8 @@ import About from './components/about1/about1'
 import Experience from './components/experience/experience'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
+import '../node_modules/font-awesome/css/font-awesome.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
   return (
