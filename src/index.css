@@ -11,8 +11,8 @@
 }
 :root {
     --color-bg:#182c38;
-    --color-bg-variant:#5D92B0;
-    --color-primary:#ACD9F2;
+    --color-bg-variant:#1b5c81cb;
+    --color-primary:rgb(61, 168, 226);
     --color-primary-variant:#A3C4D7	;
     --color-white:#FFFFFF;
     --color-light:#EBF3F9;
@@ -40,9 +40,8 @@ h1,h2,h3,h4,h5 {
     font-weight: 500;
 }
 h1 { font-size: 2.5rem;}
-section{
-    margin-top: 8rem;
-}
+
+
 section > h2 ,
 section > h5{
     text-align: center;
@@ -97,6 +96,7 @@ section{
     }
     section {
         margin-top:6rem;
+        padding-top: 6rem;
     }
 } 
 
