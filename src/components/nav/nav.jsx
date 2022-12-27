@@ -4,6 +4,7 @@ import {AiFillHome} from 'react-icons/ai'
 import{FaUserAlt} from 'react-icons/fa'
 import {BsBookFill}from 'react-icons/bs'
 import{MdMessage}from 'react-icons/md'
+import {VscPreview} from 'react-icons/vsc'
 import {MdCreateNewFolder}from'react-icons/md'
 import {useState} from 'react'
 
@@ -15,6 +16,8 @@ const Nav = () => {
       <a href='#about1' onClick={()=>setActiveNav('#about1')} className={activeNav==='#about1'? 'active':''}><FaUserAlt/></a>
       <a href='#experience' onClick={()=>setActiveNav('#experience')} className={activeNav==='#experience'?'active':''}><BsBookFill/></a>
       <a href='#portfolio' onClick={()=>setActiveNav('#portfolio')} className={activeNav==='#portfolio'?'active':''}><MdCreateNewFolder/></a>
+      <a href='#testemonia' onClick={()=>setActiveNav('#testemonia')} className={activeNav==='#testemonia'?'active':''}><VscPreview/></a>
+      
       <a href='#contact' onClick={()=>setActiveNav('#contact')} className={activeNav==='#contact'?'active':''}><MdMessage/></a>
     </nav>
   )
