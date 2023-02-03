@@ -66,6 +66,7 @@ a:hover{
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--tarnsition);
+    font-weight: bold;
 }
 .btn:hover {
     background: var(--color-white);

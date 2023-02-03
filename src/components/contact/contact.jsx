@@ -29,6 +29,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
     });
+    e.target.reset()
   };
 
   return (
@@ -38,13 +39,13 @@ const Contact = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
           {
-            data.map(({id,icon,title,adress,href,Text})=>{
+            data.map((p)=>{
               return(
-                <article key={id} className='contact__option'>
-                  <h4 className='mb-2'>{icon}</h4>
-                  <h5>{title}</h5>
-                  <h6>{adress}</h6>
-                  <a href={href} target='_blank' className='text-decoration-none '>{Text}</a>
+                <article key={p.id} className='contact__option'>
+                  <h4 className='mb-2'>{p.icon}</h4>
+                  <h5>{p.title}</h5>
+                  <h6>{p.adress}</h6>
+                  <a href={p.href} target='_blank' className='text-decoration-none '>{p.Text}</a>
 
                 </article>
 
@@ -57,7 +58,7 @@ const Contact = () => {
           <input type='text'name='name' placeholder='Your Full Name' required/>
           <input type='email' name='email' placeholder='your Email'required/>
           <textarea name='message' rows='7' placeholder='Your message' required/>
-          <button type='submit'className='btn btn-primary'>Send Messages</button>
+          <button type='submit'className='btn btn-primary font-weight-bold'>Send Messages</button>
         </form>
         
       </div>
